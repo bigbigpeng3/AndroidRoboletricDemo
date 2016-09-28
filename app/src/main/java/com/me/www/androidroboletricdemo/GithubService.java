@@ -29,6 +29,7 @@ public interface GithubService {
     Call<User> user(@Path("username") String username);
 
 
+
     class Factory {
         public static GithubService create() {
             Retrofit retrofit = new Retrofit.Builder()
