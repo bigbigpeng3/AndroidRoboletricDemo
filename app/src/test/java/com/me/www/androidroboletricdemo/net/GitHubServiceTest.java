@@ -1,6 +1,8 @@
-package com.me.www.androidroboletricdemo;
+package com.me.www.androidroboletricdemo.net;
 
 import com.google.gson.Gson;
+import com.me.www.androidroboletricdemo.GithubService;
+import com.me.www.androidroboletricdemo.Repository;
 
 import org.junit.Before;
 import org.junit.Test;
